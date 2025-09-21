@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Cuida a Tome</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id="game-container">
+        <canvas id="game-canvas" width="400" height="500"></canvas>
+    </div>
+
+    <div id="controls">
+        <button id="feed-button">Alimentar</button>
+        <button id="wash-button">Bañar</button>
+        <button id="brush-teeth-button">Lavar Dientes</button>
+        <button id="dress-button">Cambiar Ropa</button>
+    </div>
+
+    <!-- Core Logic -->
+    <script src="js/core.js"></script>
+
+    <!-- Adapters -->
+    <script src="js/cat.js"></script>
+    <script src="js/persistenceAdapter.js"></script>
+
+    <!-- Main script to connect everything -->
+    <script src="js/main.js"></script>
+
+</body>
+</html>
